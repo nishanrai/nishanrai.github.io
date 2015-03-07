@@ -9,66 +9,67 @@
     <script src="js/respond.js"></script>
 </head>
 <body>
-    <header class="header"> <!--For header-->
-        <div class="row">
-            <div class="logo">
-                <p><a href="index.html"><img src="images/mhrslogo.png"width="223px" height="61px" alt="logo" class="pull-left"></a> </p>
-            </div>
+<header class="header"> <!--For header-->
+    <div class="row">
+        <div class="logo">
+            <p><a href="index.html"><img src="images/mhrslogo.png"width="223px" height="61px" alt="logo" class="pull-left"></a> </p>
         </div>
-    </header>
+    </div>
+</header>
 <div class="container">
     <div class="row">
-            <p><img src="images/photo.png" class="img-responsive img-thumbnail"></p>
-            <button><span class="glyphicon glyphicon-camera"></span> change picture</button>
-            <a href="schedule.html"><button class="btn btn-danger btn-responsive" style="float: right"><span class="glyphicon glyphicon-calendar"></span> View Doctor Schedule</button></a>
+        <p><img src="images/photo.png" class="img-responsive img-thumbnail"></p>
+        <button><span class="glyphicon glyphicon-camera"></span> change picture</button>
+        <a href="schedule.html"><button class="btn btn-danger btn-responsive" style="float: right"><span class="glyphicon glyphicon-calendar"></span> View Doctor Schedule</button></a>
     </div>
     <div class="row">
         <div class="table-responsive">
             <table class="table table-striped table-hover table-bordered">
                 <thead style="background-color: #a6e1ec">
-                    <tr>
-                        <th>Patient No.</th>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Gender</th>
-                        <th>Weight</th>
-                        <th>Height</th>
-                        <th>BMI</th>
-                        <th>BP</th>
-                        <th>Contact</th>
-                        <th></th>
-                    </tr>
+                <tr>
+                    <th>Patient No.</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Weight</th>
+                    <th>Height</th>
+                    <th>BMI</th>
+                    <th>BP</th>
+                    <th>Contact</th>
+                    <th></th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>0205</td>
-                        <td>Sagar Giri</td>
-                        <td>20</td>
-                        <td>Male</td>
-                        <td>60KG</td>
-                        <td>5.6 Feet</td>
-                        <td>25</td>
-                        <td>120/80</td>
-                        <td>9807368806</td>
-                        <td><a href="#"><span class="glyphicon glyphicon-pencil"></span> edit</a></td>
-                    </tr>
+                <tr>
+                    <td>0205</td>
+                    <td>Sagar Giri</td>
+                    <td>20</td>
+                    <td>Male</td>
+                    <td>60KG</td>
+                    <td>5.6 Feet</td>
+                    <td>25</td>
+                    <td>120/80</td>
+                    <td>9807368806</td>
+                    <td><a href="#"><span class="glyphicon glyphicon-pencil"></span> edit</a></td>
+                </tr>
                 </tbody>
             </table>
         </div>
-</div>
-    <h2 style="text-align: center">Medical Report</h2>
+    </div>
+    <h2 style="text-align: center">E-Report</h2>
     <!-- list of navigation -->
-    <ul class="nav nav-tabs">
-        <li><a href="#MedicalReport" data-toggle="tab"><span class="glyphicon glyphicon-certificate"></span> Medical Records</a></li>
-        <li><a href="#DocRecommend" data-toggle="tab"><span class="glyphicon glyphicon-comment"></span> Doctor Recommendation</a></li>
-        <li><a href="#Medicines" data-toggle="tab"><span class="glyphicon glyphicon-plus-sign"></span> Medicines</a></li>
-        <li><a href="#Doctors" data-toggle="tab"><span class="glyphicon glyphicon-plus"></span> Doctors</a></li>
-    </ul>
-    <!-- text for each tabs -->
-    <!-- medical records -->
-    <div class="tab-content">
-        <div class="tab-pane fade active in" id="MedicalReport">
-            <p>Your medical records according to dates are:
+    <div class="container col-lg-8 col-md-6 col-sm-6">
+        <ul class="nav nav-tabs">
+            <li><a href="#MedicalReport" data-toggle="tab"><span class="glyphicon glyphicon-certificate"></span> Medical Records</a></li>
+            <li><a href="#DocRecommend" data-toggle="tab"><span class="glyphicon glyphicon-comment"></span> Doctor Recommendation</a></li>
+            <li><a href="#Medicines" data-toggle="tab"><span class="glyphicon glyphicon-plus-sign"></span> Medicines</a></li>
+            <li><a href="#Doctors" data-toggle="tab"><span class="glyphicon glyphicon-plus"></span> Doctors</a></li>
+        </ul>
+        <!-- text for each tabs -->
+        <!-- medical records -->
+        <div class="tab-content">
+            <div class="tab-pane fade active in" id="MedicalReport">
+                <p>Your medical records according to dates are:
                 <table>
                     <tr>
                         <td><a href="#" >2014-05-06</a> </td>
@@ -80,58 +81,58 @@
                         <td><a href="#" >2014-07-06</a> </td>
                     </tr>
                 </table>
-            </p>
-        </div>
-    <!-- Doc recommendation -->
-        <div class="tab-pane fade active in" id="DocRecommend">
-            <p>
-                You need to do following things:
+                </p>
+            </div>
+            <!-- Doc recommendation -->
+            <div class="tab-pane fade" id="DocRecommend">
+                <p>
+                    You need to do following things:
                 <ul>
                     <li>Drink lot of fluids</li>
                     <li>Take rest</li>
                     <li>Do exercise</li>
                 </ul>
-            </p>
-        </div>
-    <!-- Medicines -->
-        <div class="tab-pane fade active in" id="Medicines">
-            <p>
+                </p>
+            </div>
+            <!-- Medicines -->
+            <div class="tab-pane fade" id="Medicines">
+                <p>
                 <ul>
                     <li>Pentaprazol</li>
                     <li>Niko</li>
                     <li>D-Cold</li>
                 </ul>
-            </p>
-        </div>
-    <!-- Doctors -->
-        <div class="tab-pane fade active in" id="Doctors">
-            <p>
+                </p>
+            </div>
+            <!-- Doctors -->
+            <div class="tab-pane fade" id="Doctors">
+                <p>
                 <ul>
                     <li>Dr. Sushil Rasaile - Norvik hospital, (98072)-69568</li>
                     <li>Dr. Ramesh Ram Kharel - Neuro  (98072)-69598</li>
                 </ul>
-            </p>
+                </p>
+            </div>
         </div>
+
+
     </div>
-    <div class="row">
-
-    </div>
 
 
 
 
-    <footer >
+    <footer>
         <p style="text-align: center"><small>Powered by grails. This product is copyright protected &copy;. Infinite Loop &reg;</small></p>
-
     </footer>
 </div>
 
-    <!-- scripts -->
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $('.nav-tabs a:first').tab('show');
-        });
-    </script>
+<!-- scripts -->
+<script src="js/jQuery-1.11.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('.nav-tabs a:first').tab('show');
+    });
+</script>
 </body>
 </html>
