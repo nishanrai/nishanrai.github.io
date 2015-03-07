@@ -89,11 +89,12 @@
     margin-top: -17px;
 }
 footer{
-    padding: 2em 0;
+    padding: 15em 0;
     margin: 3em 0;
-    border-top: 1px solid #ddd;
+    /*border-top: 1px solid #ddd;*/
     color: #999;
     text-align: center;
+    position: relative;
 }
 .login-btn {
     text-align: center;
