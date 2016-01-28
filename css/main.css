@@ -207,7 +207,7 @@ CONTACT
   padding: 10px;
   border-right: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 .contact-item:last-child .icon{
   border-bottom: none;
@@ -329,6 +329,7 @@ HOBBIES
   position: absolute;
   top: 6px;
   left: 7px;
+  color: #ff3759;
 }
 /*******************************************
 MEDIA
